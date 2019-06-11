@@ -66,7 +66,7 @@ def create_user():
 
 @app.route('/messages', methods = ['POST'])
 def create_message():
-    c =  json.loads(request.form['values'])
+    c = json.loads(request.form['values'])
     message = entities.Message(
         content=c['content'],
         user_from_id=c['user_from_id'],

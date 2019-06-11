@@ -1,77 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Login V2</title>
+	<title>Login V3</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery-3.1.0.min.js"%3E%3C/script%3E'))</script>
 
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png"      href="/static/images/icons/favicon.ico"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/fonts/iconic/css/material-design-iconic-font.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="/static/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/util_1.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main_1.css">
 <!--===============================================================================================-->
 
 </head>
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100">
+		<div class="container-login100" style="background: #0f6848">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
-					<span class="login100-form-title p-b-26">
+					<!--<span class="login100-form-logo">
+						<i class="zmdi zmdi-landscape"></i>
+					</span>-->
+
+					<span class="login100-form-title p-b-34 p-t-27">
 						Bienvenido
 					</span>
+
 					<div align="center">
 						<img id="waiting" src="/static/images/waiting_opt.gif" style="Display:none">
                       	<img id="ok" src="/static/images/ok_1_opt.png" style="Display:none">
                       	<img id="un" src="/static/images/un_1_opt.png" style="Display:none">
 					</div>
-					<!--<span class="login100-form-title p-b-48">
-						<i class="zmdi zmdi-font"></i>
-					</span>-->
 					<br/>
 					<br/>
 					<br/>
-					<div class="wrap-input100 validate-input" data-validate = "Valid username is: name_number">
-						<input class="input100" type="text" name="username" id="username">
-						<span class="focus-input100" data-placeholder="Usuario"></span>
+					<div class="wrap-input100 validate-input" data-validate = "Ingresar usuario">
+						<input class="input100" type="text" name="username" id="username" placeholder="Usuario">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<span class="btn-show-pass">
-							<i class="zmdi zmdi-eye"></i>
-						</span>
-						<input class="input100" type="password" name="password" id="password">
-						<span class="focus-input100" data-placeholder="Contraseña"></span>
+					<div class="wrap-input100 validate-input" data-validate="Ingresar contraseña">
+						<input class="input100" type="password" name="password" id="password" placeholder="Contraseña">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 
 					<div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<button type="button" value="Login" class="login100-form-btn" onclick="getDatos()">Iniciar sesión</button>
-						</div>
+						<button type="button" value="Login" class="login100-form-btn" onclick="getData()">Iniciar sesión</button>
 					</div>
-                    <br/>
 
 				</form>
 			</div>
@@ -82,25 +77,26 @@
 	<div id="dropDownSelect1"></div>
 	
 <!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<script src="/static/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/static/vendor/bootstrap/js/popper.js"></script>
+	<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+	<script src="/static/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="/static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/static/vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script src="/static/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+	<script src="/static/js/main_1.js"></script>
+	<script src="js/sb-admin-2.min.js"></script>
 
-    <script>
+	<script>
 
-      function getDatos(){
+	function getData(){
         document.getElementById("waiting").style.display = "inline";
         document.getElementById("un").style.display = "none";
         document.getElementById("ok").style.display = "none";
@@ -109,7 +105,7 @@
         var message = JSON.stringify({
                 "username": username,
                 "password": password
-            });
+		});
 
         $.ajax({
             url:'/authenticate',
@@ -119,23 +115,23 @@
             dataType:'json',
             success: function(response){
 
-            },
+			},
             error: function(response){
                 if(response['status']==401){
-                    document.getElementById("waiting").style.display = "none";
-                    document.getElementById("ok").style.display = "none";
-                    document.getElementById("un").style.display = "inline";
-                }
-                else{
-                    document.getElementById("waiting").style.display = "none";
-                    document.getElementById("un").style.display = "none";
-                    document.getElementById("ok").style.display = "inline";
-                }
+                	document.getElementById("waiting").style.display = "none";
+                	document.getElementById("ok").style.display = "none";
+                	document.getElementById("un").style.display = "inline";
+                } else{
+					document.getElementById("waiting").style.display = "none";
+                	document.getElementById("un").style.display = "none";
+					document.getElementById("ok").style.display = "inline";
+                	window.location.href="http://127.0.0.1:8080/static/chatweb.html"
+				}
             }
         });
-    }
+	}
 
-    </script>
+	</script>
 
 </body>
 </html>

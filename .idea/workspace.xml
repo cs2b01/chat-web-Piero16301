@@ -4,13 +4,21 @@
     <list default="true" id="16051b00-6d4f-42dd-a100-f5cc678983a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/chat.db" beforeDir="false" afterPath="$PROJECT_DIR$/web/chat.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/images/ok.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/images/un.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/images/waiting.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/ok_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/un_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/waiting_.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/chatweb.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/chatweb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/chatweb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/crud_users.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/crud_users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/crud_users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/dologin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/dologin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/messages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/styles.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +28,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            <state relative-caret-position="74">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="70" column="64" lean-forward="true" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,11 +76,23 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mess</find>
       <find>&lt;</find>
       <find>hre</find>
       <find>getDa</find>
       <find>main.</find>
+      <find>/stat</find>
+      <find>crud</find>
+      <find>.js</find>
+      <find>dolo</find>
+      <find>mess</find>
+      <find>styles</find>
+      <find>action</find>
+      <find>src</find>
+      <find>auth</find>
+      <find>dologin</find>
+      <find>get</find>
+      <find>username</find>
+      <find>password</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,22 +103,23 @@
       <list>
         <option value="$PROJECT_DIR$/web/templates/crud_users.js" />
         <option value="$PROJECT_DIR$/web/database/connector.py" />
-        <option value="$PROJECT_DIR$/web/templates/crud_users.html" />
         <option value="$PROJECT_DIR$/web/templates/Login.html" />
         <option value="$PROJECT_DIR$/web/templates/login.js" />
-        <option value="$PROJECT_DIR$/web/templates/messages.html" />
         <option value="$PROJECT_DIR$/web/templates/messages.js" />
-        <option value="$PROJECT_DIR$/web/templates/chatweb.html" />
         <option value="$PROJECT_DIR$/web/templates/chatweb.js" />
-        <option value="$PROJECT_DIR$/web/templates/dologin.html" />
         <option value="$PROJECT_DIR$/web/templates/dologin.js" />
         <option value="$PROJECT_DIR$/web/static/css/chatweb.css" />
         <option value="$PROJECT_DIR$/web/static/css/sb-admin-2.css" />
         <option value="$PROJECT_DIR$/web/model/entities.py" />
-        <option value="$PROJECT_DIR$/web/server.py" />
-        <option value="$PROJECT_DIR$/web/templates/index.html" />
         <option value="$PROJECT_DIR$/web/static/js/main.js" />
+        <option value="$PROJECT_DIR$/web/templates/chatweb.html" />
+        <option value="$PROJECT_DIR$/web/templates/dologin.html" />
+        <option value="$PROJECT_DIR$/web/templates/messages.html" />
+        <option value="$PROJECT_DIR$/web/templates/crud_users.html" />
+        <option value="$PROJECT_DIR$/web/templates/index.html" />
         <option value="$PROJECT_DIR$/web/templates/login.html" />
+        <option value="$PROJECT_DIR$/web/server.py" />
+        <option value="$PROJECT_DIR$/web/templates/login_chat.html" />
       </list>
     </option>
   </component>
@@ -134,6 +178,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../code-on-demand-fabriziofranco" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -193,26 +240,27 @@
       <updated>1558536507359</updated>
       <workItem from="1560220979584" duration="889000" />
       <workItem from="1560221899732" duration="11443000" />
+      <workItem from="1560282872571" duration="6236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12332000" />
+    <option name="totallyTimeSpent" value="18568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20574887" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20877458" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49924356" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -229,7 +277,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chat_web_Piero16301$server.coverage" NAME="server Coverage Results" MODIFIED="1560233463630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/chat_web_Piero16301$server.coverage" NAME="server Coverage Results" MODIFIED="1560289115772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/templates/styles.css">
@@ -249,37 +297,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/crud_users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/messages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/messages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/chatweb.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -289,21 +310,6 @@
           <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/dologin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1932#1938#0" expanded="true" />
-            <element signature="e#1947#1953#0" expanded="true" />
-            <element signature="n#STYLE#0;n#img#0;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -338,31 +344,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/login.js" />
     <entry file="file://$PROJECT_DIR$/web/templates/dologin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="387" column="1" selection-start-line="387" selection-start-column="1" selection-end-line="387" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -373,24 +359,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/web/templates/crud_users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="52" column="93" lean-forward="true" selection-start-line="52" selection-start-column="93" selection-end-line="52" selection-end-column="93" />
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="387" column="1" selection-start-line="387" selection-start-column="1" selection-end-line="387" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/dologin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/chatweb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
-            <element signature="n#STYLE#0;n#img#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        <state relative-caret-position="74">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/main_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1061" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/main_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="262" column="24" lean-forward="true" selection-start-line="262" selection-start-column="24" selection-end-line="262" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/dologin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="92" column="46" lean-forward="true" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1932#1938#0" expanded="true" />
+            <element signature="e#1947#1953#0" expanded="true" />
+            <element signature="n#STYLE#0;n#img#0;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/login_chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="70" column="64" lean-forward="true" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
